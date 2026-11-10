@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+labs/*/data/
+labs/*/airflow_home/
+*.duckdb
+*.duckdb.wal

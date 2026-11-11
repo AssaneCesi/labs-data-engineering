@@ -4,3 +4,4 @@ labs/*/data/
 labs/*/airflow_home/
 *.duckdb
 *.duckdb.wal
+labs/*/kafka/

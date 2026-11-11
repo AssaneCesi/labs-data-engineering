@@ -1,0 +1,21 @@
+{
+  "name": "Labo E3 · Spark (PySpark en local)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": { "version": "17" }
+  },
+  "workspaceFolder": "/workspaces/labs-data-engineering/labs/E3-spark",
+  "containerEnv": {
+    "PYTHONPATH": "/workspaces/labs-data-engineering/labs/E3-spark"
+  },
+  "postCreateCommand": "bash setup.sh",
+  "forwardPorts": [4040],
+  "portsAttributes": {
+    "4040": { "label": "Spark UI (quand une session tourne)", "onAutoForward": "notify" }
+  },
+  "hostRequirements": { "cpus": 2 },
+  "customizations": {
+    "vscode": { "extensions": ["ms-python.python"] },
+    "codespaces": { "openFiles": ["README.md", "lab/niveau1.py", "REPONSES.md"] }
+  }
+}

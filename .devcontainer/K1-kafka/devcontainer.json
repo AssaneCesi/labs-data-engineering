@@ -1,0 +1,18 @@
+{
+  "name": "Labo K1 · Kafka (broker local KRaft)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": { "version": "17" }
+  },
+  "workspaceFolder": "/workspaces/labs-data-engineering/labs/K1-kafka",
+  "containerEnv": {
+    "PYTHONPATH": "/workspaces/labs-data-engineering/labs/K1-kafka"
+  },
+  "postCreateCommand": "bash setup.sh",
+  "postStartCommand": "bash demarrer_kafka.sh",
+  "hostRequirements": { "cpus": 2 },
+  "customizations": {
+    "vscode": { "extensions": ["ms-python.python"] },
+    "codespaces": { "openFiles": ["README.md", "lab/consommateur.py", "REPONSES.md"] }
+  }
+}

@@ -14,6 +14,8 @@ Des environnements d'entraînement prêts à l'emploi, un par concept : un clic,
 | Code | Sujet | Outils | Ouvrir |
 |---|---|---|---|
 | A1 | DAG quotidien, backfill, rejeu idempotent | Airflow 3, DuckDB | [![Ouvrir dans Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/AssaneCesi/labs-data-engineering?quickstart=1&devcontainer_path=.devcontainer%2FA1-backfill%2Fdevcontainer.json) |
+| E3 | Spark : plan, shuffle, diffusion, fenêtre (kit de survie) | PySpark 3.5 en local | [![Ouvrir dans Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/AssaneCesi/labs-data-engineering?quickstart=1&devcontainer_path=.devcontainer%2FE3-spark%2Fdevcontainer.json) |
+| K1 | Kafka : topic, clé, offsets, consommateur idempotent (kit de survie) | Kafka 3.9 (KRaft), DuckDB | [![Ouvrir dans Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/AssaneCesi/labs-data-engineering?quickstart=1&devcontainer_path=.devcontainer%2FK1-kafka%2Fdevcontainer.json) |
 
 Le lien rouvre ton codespace existant s'il y en a déjà un pour ce labo, au lieu d'en créer un nouveau.
 
